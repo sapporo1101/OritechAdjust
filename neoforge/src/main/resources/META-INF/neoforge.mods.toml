@@ -1,0 +1,38 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "oritechadjust"
+version = "${version}"
+displayName = "OritechAdjust"
+authors = "sapporo1101"
+description = '''
+
+'''
+#logoFile = ""
+
+[[dependencies.oritechadjust]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.oritechadjust]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.oritechadjust]]
+modId = "oritech"
+type = "required"
+versionRange = "[0.13.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "oritechadjust.mixins.json"

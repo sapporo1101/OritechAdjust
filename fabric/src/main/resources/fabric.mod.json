@@ -1,0 +1,34 @@
+{
+    "schemaVersion": 1,
+    "id": "oritechadjust",
+    "version": "${version}",
+    "name": "OritechAdjust",
+    "description": "",
+    "authors": ["sapporo1101"],
+    "contact": {
+        "homepage": ""
+    },
+    "license": "All-Rights-Reserved",
+    "icon": "assets/oritechadjust/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "io.github.sapporo1101.oritechadjust.fabric.OritechadjustFabric"
+        ],
+        "client": [
+            "io.github.sapporo1101.oritechadjust.fabric.client.OritechadjustFabricClient"
+        ]
+    },
+    "mixins": [
+        "oritechadjust.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.16.10",
+        "minecraft": "~1.21.1",
+        "java": ">=21",
+        "oritech": ">=0.13.2"
+    },
+    "suggests": {
+        "another-mod": "*"
+    }
+}
