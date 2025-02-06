@@ -31,7 +31,7 @@ side = "BOTH"
 modId = "oritech"
 type = "required"
 versionRange = "[0.13.2,)"
-ordering = "NONE"
+ordering = "AFTER"
 side = "BOTH"
 
 [[mixins]]

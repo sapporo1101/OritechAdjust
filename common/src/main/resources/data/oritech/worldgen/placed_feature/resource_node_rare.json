@@ -1,4 +1,5 @@
 {
+    "replace": true,
     "feature": "oritech:resource_node_rare",
     "placement": [
         {
